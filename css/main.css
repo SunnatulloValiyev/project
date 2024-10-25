@@ -1,0 +1,596 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    max-width: 1140px;
+    margin-left: 150px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.head {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 30px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.UL_li, a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 16px;
+    gap: 20px;
+    text-decoration: none;
+    list-style: none;
+    -webkit-transition: all 0.9s ease;
+    -o-transition: all 0.9s ease;
+    transition: all 0.9s ease;
+    color: rgb(116, 116, 116);
+}
+
+a:hover {
+    color: #ff8400;
+}
+
+
+.btn-1 {
+    cursor: pointer;
+    background-color: #DC780B;
+    color: white;
+    border: none;
+    margin-left: 500px;
+    border-radius: 5px;
+    width: 155px;
+    height: 46px;
+    -webkit-transition: all 0.9s ease;
+    -o-transition: all 0.9s ease;
+    transition: all 0.9s ease;
+}
+
+.btn-1:hover {
+    background-color: #ff8400;
+}
+
+.containers {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.container-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    max-height: 608px;
+    max-width: 1140px;
+    margin: 0 auto; 
+}
+
+.food {
+    float: left;  
+    margin-top: 170px;
+    max-width: 555px;
+    width: 550px;
+    font-family: 'Philosopher', sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.text-1 {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 500px;
+}
+
+.btns {
+    margin-top: 100px;
+    width: 358px;
+    height: 60px;
+}
+
+
+.btn-2 {
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    width: 158px;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+    background: #fb741a;
+    color: white;
+    -webkit-transition: all 0.9s ease;
+    -o-transition: all 0.9s ease;
+    transition: all 0.9s ease;
+}
+
+.btn-2:hover {
+    background-color: hwb(31 19% 0%);
+}
+
+.btn-3 {
+    cursor: pointer;
+    margin-left: 15px;
+    font-family: 'Roboto', sans-serif;
+    width: 158px;
+    height: 60px;
+    border-radius: 5px;
+    border-color: #ff9b31; 
+    background: white;
+    color:#DC780B;
+    -webkit-transition: all 0.9s ease;
+    -o-transition: all 0.9s ease;
+    transition: all 0.9s ease;
+}
+
+.btn-3:hover {
+    background-color: #ffd9b5;
+}
+
+.photo-1 {
+    width: 576px;
+    height: 608px;   
+
+}
+
+.feat {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.feat p {
+    font-size: 26px;
+    font-weight: 500;
+    color: #ff8400;
+}
+
+.feat h2 {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 31px;
+    font-weight: 700;
+}
+
+.features {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 180px;
+    max-width: 1080px;
+    height: 333px;
+    margin: 0 auto;   
+}
+
+.quality {
+    text-align: center;
+    width: 30%;
+    height: 228px;
+}
+
+.quality img {
+    text-align: center;
+    width: 44px;
+    height: 44px;
+}
+
+.quality h3 {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.quality .text-2 {
+    font-size: 16px;
+    color: black;
+    opacity: 0.7;
+    line-height: 1.5;
+}
+
+.delivery img{
+    width: 44px;
+    height: 44px;
+}
+
+.delivery {
+    text-align: center;
+    width: 30%;
+    height: 228px;
+}
+
+
+.delivery h3 {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.delivery .text-3 {
+    font-size: 16px;
+    color: black;
+    opacity: 0.7;
+    line-height: 1.5;
+}
+
+.taste {
+    text-align: center;
+    width: 30%;
+    height: 228px;
+}
+
+
+.taste img {
+    text-align: center;
+    width: 44px;
+    height: 44px;
+}
+
+.taste h3 {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.taste .text-4 {    
+    font-size: 16px;
+    color: black;
+    opacity: 0.7;
+    line-height: 1.5;
+}
+
+
+.container-2 {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 123px;
+}
+
+.stalls {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.photo-2 img {
+    width: 555px;
+    height: 500px;
+}
+
+.about {
+    max-width: 488px;
+}
+
+.text-5 {
+    font-size: 16px;
+    letter-spacing: 1.3px;
+    color: #dc780b;
+    margin-bottom: 10px;
+}
+
+.text-6 {
+    font-family: "Philosopher";
+    font-weight: 690;
+    font-size: 31px;
+    color: #150c01;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.text-7 {
+    opacity: 70%;
+    font-size: 16px;
+    color: #150c01;
+    margin-bottom: 29px;
+}
+
+.btn-4 {
+    border: none;
+    cursor: pointer;
+    width: 142px;
+    height: 42px;
+    border-radius: 5px;
+    background-color: #fc890e;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #fff;
+    -webkit-transition: all 0.9s ease;
+    -o-transition: all 0.9s ease;
+    transition: all 0.9s ease;
+}
+
+.btn-4:hover {
+    background-color: #ffab58;
+}
+
+.menu {
+    margin-top: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.cards {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.text-8 {
+    color: #ffb15d;
+    font-size: 16px;    
+    opacity: 0.7;
+}
+
+.menu h2 {
+    margin-bottom: 20px;
+    margin-top: 15px;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 31px;
+}
+
+.text-9 {
+    width: 50%;
+    opacity: 0.7;
+    text-align: center;
+}
+
+  
+.card {
+    margin-top: 60px;
+    width: 20%; 
+    min-width: 250px; 
+    border-radius: 12px;
+    -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.card-img {
+    width: 100%;
+    height: 180px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 55px;
+  }
+
+.card-content {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-family: 'Philosopher', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card-title .price {
+  font-size: 16px;
+  color: #333;
+}
+
+.card-description {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+ }
+
+
+.card-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn-5 {
+  background-color: #ff8000;
+  color: white;
+  border: none;
+  border-radius: 20%;
+  font-size: 18px;
+  padding: 5px 10px;
+  cursor: pointer;
+  -webkit-transition: all 0.9s ease;
+  -o-transition: all 0.9s ease;
+  transition: all 0.9s ease;
+}
+
+.btn-5:hover {
+    background-color: #ffad5a;
+}
+
+.stars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cards-2 {
+    width: 100%; 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+
+.cards-3 {
+    width: 100%; 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.blocks {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 1520px;
+    height: 429px;
+    margin: 0 auto;
+}
+
+
+.bot {
+    background-color: #252525;
+}
+
+
+
+.food-2 {
+    margin-top: 90px;
+    margin-bottom: 20px;
+    width: 61px;
+    height: 60px;
+}
+
+.block {
+    margin-bottom: 80px;
+    color: #bfbdbd;  
+    line-height: 35px; 
+    font-size: 14px;
+}  
+
+
+.block-1 {
+    color: #bfbdbd;  
+    line-height: 35px; 
+    font-size: 14px;
+}
+
+
+
+.block-1 h2 {
+    font-family: 'Philosopher', sans-serif;
+    color: white;
+}
+
+
+.block-2 {
+    color: #bfbdbd;  
+    line-height: 35px; 
+    font-size: 14px;
+}
+
+.block-2 h2 {
+    font-family: 'Philosopher', sans-serif;
+    color: white;
+}
+
+
+.block-3 {
+    color: #bfbdbd;  
+    line-height: 35px; 
+    font-size: 14px;
+}
+
+.block-3 h2 {
+    font-family: 'Philosopher', sans-serif;
+    color: white;
+}
+
+
+.icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}   
